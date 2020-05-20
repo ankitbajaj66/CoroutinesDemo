@@ -7,7 +7,7 @@
     tools:context=".SimpleServiceCallActivity">
 
     <Button
-        android:id="@+id/btn_MakeNetworkRequest"
+        android:id="@+id/btn_TimeOutRequest"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Make Network Request"
@@ -17,7 +17,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/txt_data"
+        android:id="@+id/txt_data_display"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
