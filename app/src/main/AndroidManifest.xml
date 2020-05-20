@@ -9,16 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ParallelTaskActivity">
+        <activity android:name=".SequentialJobActivity"></activity>
+        <activity android:name=".ParallelJobExecutionActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".NetworkTimeout"></activity>
-        <activity android:name=".ServiceCallWithCancelOptionActivity">
-        </activity>
+        <activity android:name=".NetworkTimeout" />
+        <activity android:name=".ServiceCallWithCancelOptionActivity"></activity>
         <activity android:name=".SimpleServiceCallActivity" />
     </application>
 
