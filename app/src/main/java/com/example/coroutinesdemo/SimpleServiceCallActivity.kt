@@ -43,7 +43,7 @@ class SimpleServiceCallActivity : AppCompatActivity() {
         println("debug: $result1")
         setTextOnMainThread(result1)
 
-        // So its sequential call, we can pass the result of first call to second method call
+               // So its sequential call, we can pass the result of first call to second method call
         val result2 = getResultFromApi2()
         println("debug: $result2")
         setTextOnMainThread(result2)
