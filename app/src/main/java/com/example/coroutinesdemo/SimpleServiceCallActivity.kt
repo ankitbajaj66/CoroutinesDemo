@@ -10,6 +10,9 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
+// This Class is for Two use case
+// To make simple network request and get response
+// To make a request and gets a response and then make second request(Sequential Request)
 class SimpleServiceCallActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,7 +21,7 @@ class SimpleServiceCallActivity : AppCompatActivity() {
 
         btn_MakeNetworkRequest.setOnClickListener {
 
-            // IO, mian, default
+            // IO, main, default
             CoroutineScope(IO).launch {
                 fakeApiRequest()
             }
