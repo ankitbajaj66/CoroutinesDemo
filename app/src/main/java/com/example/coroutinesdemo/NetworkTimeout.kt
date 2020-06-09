@@ -7,6 +7,8 @@ import kotlinx.android.synthetic.main.activity_network_timeout.*
 import kotlinx.coroutines.*
 import kotlinx.coroutines.Dispatchers.IO
 
+// Second
+// Network requst with  timeout
 class NetworkTimeout : AppCompatActivity() {
 
     private val JOB_TIMEOUT = 2200L

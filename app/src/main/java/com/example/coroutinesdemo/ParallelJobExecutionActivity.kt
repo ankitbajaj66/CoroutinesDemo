@@ -7,6 +7,8 @@ import kotlinx.coroutines.*
 import kotlinx.coroutines.Dispatchers.IO
 import kotlin.system.measureTimeMillis
 
+// Fourth
+// parallel network operation - async await
 class ParallelJobExecutionActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {

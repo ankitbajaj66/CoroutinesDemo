@@ -9,15 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RunBlockingDemoActivity">
+        <activity android:name=".SuperVisorJobActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SequentialJobActivity"></activity>
-        <activity android:name=".ParallelJobExecutionActivity"></activity>
+        <activity android:name=".CoroutinesErrorHandlingActivity">
+
+        </activity>
+        <activity android:name=".GlobalScopeActivity" />
+        <activity android:name=".RunBlockingDemoActivity" />
+        <activity android:name=".SequentialJobActivity" />
+        <activity android:name=".ParallelJobExecutionActivity" />
         <activity android:name=".NetworkTimeout" />
         <activity android:name=".ServiceCallWithCancelOptionActivity" />
         <activity android:name=".SimpleServiceCallActivity" />

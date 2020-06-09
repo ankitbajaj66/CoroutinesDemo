@@ -10,12 +10,14 @@ import kotlinx.coroutines.*
 import kotlinx.coroutines.Dispatchers.IO
 import kotlinx.coroutines.Dispatchers.Main
 
+// Third
+// Cancelling job
 class ServiceCallWithCancelOptionActivity : AppCompatActivity() {
 
     private val PROGRESS_MAX = 100
     private val PROGRESS_MIN = 0
     private val JOB_TIME = 4000
-    lateinit var completableJob: CompletableJob
+    lateinit var completableJob: Job
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
